@@ -1,0 +1,30 @@
+[
+  {
+    "name": "复古电热水壶",
+    "price": "￥299",
+    "img": "static/image/shopelse1.png",
+    "hint":"让每一杯水，都温暖你的心"
+  },
+  {
+    "name": "复古多士炉/吐司机",
+    "price": "￥119",
+
+    "img": "static/image/shopelse2.png",
+    "hint":"让平凡的面包脱胎换骨"
+  },
+  {
+    "name": "免安装台式洗碗机",
+    "price": "￥2019.2",
+
+    "img": "static/image/shopelse3.png",
+    "hint":"解放双手，让洗碗变得简单"
+  },
+
+  {
+    "name": "复古缝纫机",
+    "price": "￥599",
+
+    "img": "static/image/shopelse4.png",
+    "hint":"喜欢复古不怕累你就用吧"
+  }
+]

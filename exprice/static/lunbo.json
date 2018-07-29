@@ -1,0 +1,20 @@
+[
+  {
+    "id": "0",
+    "price": "￥300",
+    "img": "static/image/lunbo_1.png"
+  },
+  {
+    "id": "1",
+    "price": "￥500",
+
+    "img": "static/image/lunbo_2.png"
+  },
+  {
+    "id": "2",
+    "price": "￥119",
+
+    "img": "static/image/lunbo_3.png"
+  }
+
+]

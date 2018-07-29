@@ -1,0 +1,27 @@
+[
+  {
+    "name": "高级500元会员卡",
+    "todayprice": "￥339",
+    "tomorrowprice": "￥441",
+    "originprice": "￥500",
+    "img": "static/image/underCenter1.png",
+    "hint":"先到先得啊各位"
+  },
+  {
+    "name": "简约茶具套组",
+    "todayprice": "￥239",
+    "tomorrowprice": "￥241",
+    "originprice": "￥249",
+    "img": "static/image/newPro_2.png",
+    "hint":"让每一杯水，都温暖你的心"
+  },
+  {
+    "name": "黑色皮包",
+    "todayprice": "￥199",
+    "tomorrowprice": "￥259",
+    "originprice": "￥329",
+    "img": "static/image/shopelse3.png",
+    "hint":"江南皮革厂倒闭啦"
+  }
+  
+]

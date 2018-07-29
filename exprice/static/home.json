@@ -1,0 +1,56 @@
+[
+  {
+    "name": "严选礼品卡300元面值300",
+    "price": "￥300",
+    "img": "static/image/underCenter1.png"
+  },
+  {
+    "name": "严选礼品卡500元面值",
+    "price": "￥500",
+
+    "img": "static/image/underCenter2.png"
+  },
+  {
+    "name": "电动势硅胶洁面仪",
+    "price": "￥119",
+
+    "img": "static/image/underCenter3.png"
+  },
+
+  {
+    "name": "美国制造除甲醛",
+    "price": "￥40",
+
+    "img": "static/image/underCenter4.png"
+  },
+
+  {
+    "name": "浓缩即食燕窝",
+    "price": "￥328",
+
+    "img": "static/image/underCenter5.png"
+  },
+  {
+    "name": "日本制造鞠世贤",
+    "price": "￥369",
+
+    "img": "static/image/underCenter6.png"
+  },
+  {
+    "name": "严选礼品卡500元面值",
+    "price": "￥500",
+    "img": "static/image/underCenter1.png"
+  },
+
+  {
+    "name": "电动势硅胶洁面仪",
+    "price": "￥119",
+    "img": "static/image/underCenter2.png"
+  },
+  {
+    "name": "美国制造除甲醛",
+    "price": "￥40",
+    "img": "static/image/underCenter3.png"
+  }
+
+]
