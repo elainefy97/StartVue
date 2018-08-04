@@ -63,7 +63,7 @@
         <div class="space"></div>
         <div class="shopElse">
             <div class="shopElseHeader" >
-                <img src="../../image/shopcart1.png" alt="" width="40rem" height="40rem">
+                <img src="static/image/shopelse1.png" alt="" width="40rem" height="40rem">
                 <span>看了该商品的还买了</span>
             </div>
             <div class="shopElseProduct">
@@ -88,18 +88,20 @@
             </div>
             
         </div>
+    <div class="outfooter">
+        <div></div>
+    <vFfooter></vFfooter>
+    </div>   
     </div>
 </template>
 
 <script>
-import Fnav from '../all/Fnav'
-import Ffooter from '../all/Ffooter'
 
+import Ffooter from '../components/all/Ffooter'
 export default {
   name: 'test1',
   components: {
-    'vFnav': Fnav,
-    'vFfooter': Ffooter
+          'vFfooter': Ffooter
   },
   data() {
     return {
@@ -443,11 +445,14 @@ export default {
     .shopFooter1>div{
         height: 1rem;
     }
+    .outfooter>div{
+        height: 1.4rem;
+    }
     .shopFooter2 {
             position: fixed;
             width: 100%;
             height: 1rem;
-            bottom:1.5rem;
+            bottom:1.4rem;
             font-size: 0.4rem;
             border-top: solid 0.03rem #ccc;
             display: flex;

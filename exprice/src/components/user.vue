@@ -1,7 +1,7 @@
 <template>
   <div class="user">
     <div class="head">
-      <img src="../../image/head.jpg" alt="" height="80rem" width="80rem">
+      <img src="static/image/head.jpg" alt="" height="80rem" width="80rem">
       <div class="headRight">
         <div class="phone">
           <span>77777777</span>
@@ -67,7 +67,7 @@
       <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
       </div>
       <hr>
-      <img src="../../image/partner.png" alt="" height="97rem">
+      <img src="static/image/partner.png" alt="" height="97rem">
     </div>
     <div class="space"></div>
     <div class="server">
@@ -192,18 +192,20 @@
         </div>
       </div>
     </div>
+    <div class="outfooter">
+        <div></div>
+    <vFfooter></vFfooter>
+    </div>  
   </div>
 </template>
 
 <script>
-  import Fnav from '../all/Fnav'
-  import Ffooter from '../all/Ffooter'
+  import Ffooter from '../components/all/Ffooter'
   export default {
     name: 'User',
     components: {
+      'vFfooter':Ffooter
 
-      'vFnav': Fnav,
-      'vFfooter': Ffooter
     },
     data() {
       return {
@@ -339,4 +341,7 @@
     flex-direction: column;
     flex: 0 0 25%;
   }
+  .outfooter>div{
+        height: 1.4rem;
+    }
 </style>

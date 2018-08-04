@@ -1,17 +1,6 @@
 <template>
-   <div class="home" >
-       <vFnav ></vFnav>
-        <div class="tarbar">
-            <ul>
-                <li><router-link to="/">推荐</router-link></li>
-                <li><router-link to="/newProduct">新品</router-link></li>
-                <li><router-link to="/">众筹</router-link></li>
-                <li><router-link to="/">福利社</router-link></li>
-                <li><router-link to="/">限时购</router-link></li>
-                <li><router-link to="/">家居</router-link></li>
-                <li><router-link to="/">服装</router-link></li>
-            </ul>
-        </div>
+    <div class="content">
+          
         <div class="lunbo" >
             <div class="lunboItem" v-for="items in lunboPicItem" v-bind:style="lunboPicItemShow[items.id].show" >
                 <img src="" alt="" height="100%" v-bind:src='items.img' >
@@ -53,18 +42,11 @@
         
         </div>
         </div>
-        </div>
-        
-        
-
-
+    </div>
 </template>
-
 <script>
-import Fnav from '../all/Fnav'
-import Ffooter from '../all/Ffooter'
 export default {
-  name: 'test1',
+    name: 'xinpin',
   data(){
       return{
           xinpinPicItem:[],
@@ -73,8 +55,7 @@ export default {
       }
   },
   components: {
-            'vFnav': Fnav,
-            'vFfooter':Ffooter
+        
         },
      
    mounted: function () {
@@ -115,43 +96,10 @@ export default {
      
    }
 
-
-
-
-
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-        .tarbar {
-            display: flex;
-        }
-        .tarbar ul {
-            flex: 1;
-            display: flex;
-            height: 1rem;
-            overflow: hidden;
-            background-color: #f9f9f9;
-            text-align: center;
-        }
-        .tarbar ul li {
-            justify-content: space-between;
-            text-align: center;
-            flex-wrap: wrap;
-            flex: 1;
-            list-style: none;
-            line-height: 1rem;
-        }
-        .tarbar ul li a{
-            color: #999;
-        }
-        .tarbar ul li a:hover{
-            color: red;
-        }
-        .tarbar ul li:hover {
-            border-bottom: red solid 0.06rem;
-        }
+     
          .lunbo{
             overflow: hidden;
             height:5.7rem;
@@ -221,4 +169,7 @@ export default {
         hr{
             margin: 0.2rem 0;
         }
+        
 </style>
+
+

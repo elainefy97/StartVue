@@ -2,15 +2,15 @@
      <div class="footer">
          <div class="footerItem">
              <span>首页</span>
-             <span><router-link to="/"><i class="fa fa-home" ></i></router-link></span>
+             <span><router-link to="/Home/homeIndex"><i class="fa fa-home" ></i></router-link></span>
          </div>
          <div class="footerItem">
              <span>分类</span>
-             <span><router-link to="/"><i class="fa fa-folder"></i></router-link></span>
+             <span><router-link to="/Home/homeIndex"><i class="fa fa-folder"></i></router-link></span>
          </div>
          <div class="footerItem">
              <span>识物</span>
-             <span><router-link to="/"><i class="fa fa-map" ></i></router-link></span>
+             <span><router-link to="/Home/homeIndex"><i class="fa fa-map" ></i></router-link></span>
          </div>
          <div class="footerItem">
              <span>购物车</span>
